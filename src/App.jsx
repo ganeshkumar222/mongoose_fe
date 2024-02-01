@@ -3,7 +3,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import { Dashboard } from './components/Dashboard'
 import { AddUser } from './components/AddUser'
 import { EditUser } from './components/EditUser'
-export const APIURL = "http://localhost:8000/student/"
+export const APIURL = "https://mongoose-m7pv.onrender.com/student/"
 export const App = () => {
   return <>
   <BrowserRouter>
